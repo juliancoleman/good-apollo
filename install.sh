@@ -29,20 +29,20 @@ echo "... Gitignore moved"
 # Zsh
 echo ""
 echo "... Installing Zsh"
-sh zsh/install.sh
+# sh zsh/install.sh
 cp zsh/.zshrc ~/.zshrc
 echo "... Zsh installed"
 
 # Oh My Zsh
 echo ""
 echo "... Installing oh-my-zsh"
-sh zsh/oh-my-zsh/install.sh
+# sh zsh/oh-my-zsh/install.sh
 echo "... oh-my-zsh installed"
 
 # zsh-autosuggestions
 echo ""
 echo "... Installing zsh-autosuggestions plugin"
-sh zsh/oh-my-zsh/zsh-autosuggestions.sh
+# sh zsh/oh-my-zsh/zsh-autosuggestions.sh
 echo "... zsh-autosuggestions plugin installed"
 
 # OpenRazer
