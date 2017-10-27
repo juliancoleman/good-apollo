@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo add-apt-repository ppa:lah7/polychromatic
+sudo add-apt-repository -y ppa:lah7/polychromatic

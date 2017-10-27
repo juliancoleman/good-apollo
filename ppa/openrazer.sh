@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo add-apt-repository ppa:openrazer/stable
+sudo add-apt-repository -y ppa:openrazer/stable
