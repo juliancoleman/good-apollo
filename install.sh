@@ -100,7 +100,7 @@ echo "... VSCode installed"
 # NPM login
 echo ""
 echo "... Please sign in to NPM"
-sh node/npm/login.sh
+# sh node/npm/login.sh
 
 # SSH keygen
 echo ""
