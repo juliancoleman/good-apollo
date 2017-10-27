@@ -15,7 +15,7 @@ sudo apt update
 # Git
 echo ""
 echo "... Installing Git"
-sudo apt install -qq git
+sudo apt -qq install git
 echo "... Git installed"
 
 # Gitconfig
@@ -50,11 +50,11 @@ echo "... zsh-autosuggestions plugin installed"
 # OpenRazer
 echo ""
 echo "... Installing Razer drivers"
-sudo apt install -qq openrazer-meta
+sudo apt -qq install openrazer-meta
 echo "... OpenRazer installed"
 
 # Polychromatic
-sudo apt install -qq polychromatic
+sudo apt -qq install polychromatic
 echo "... Polychromatic installed"
 
 # Node
@@ -96,13 +96,13 @@ echo "... Go installed"
 # Google Chrome
 echo ""
 echo "... Installing Google Chrome"
-sudo apt install -qq google-chrome-stable
+sudo apt -qq install google-chrome-stable
 echo "... Google Chrome installed"
 
 # VSCode
 echo ""
 echo "... Installing VSCode"
-sudo apt install code code-insiders
+sudo apt -qq install code code-insiders
 echo "... VSCode installed"
 
 # NPM login
