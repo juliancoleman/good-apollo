@@ -1,6 +1,8 @@
 echo "Hello, Apollo. Where should I begin?"
 echo ""
 
+sudo apt install -y -qq curl
+
 # Add apt repositories
 echo "... Adding PPA repositories"
 for file in ppa/*
