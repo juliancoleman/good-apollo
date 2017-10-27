@@ -13,7 +13,7 @@ the following:
 
 ```sh
 git clone https://github.com/juliancoleman/good-apollo ~/github
-cd good-apollo && sh install.sh
+cd good-apollo && sudo sh install.sh
 ```
 
 If your computer doesn't come with `git`, which is probably
@@ -24,8 +24,8 @@ back to this repo, and just click on _Clone or download_
 the following:
 
 ```sh
-unzip -t good-apollo.zip
-cd good-apollo && sh install.sh
+unzip -t good-apollo-master.zip
+cd good-apollo-master && sudo sh install.sh
 ```
 
 ### What do I get with this?
