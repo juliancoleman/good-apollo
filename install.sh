@@ -1,14 +1,14 @@
 echo "Hello, Apollo. Where should I begin?"
 echo ""
 
-sudo apt update
-
 # Add apt repositories
 echo "... Adding PPA repositories"
 for file in ppa/*
 do
   sh $file
 done
+
+sudo apt update
 
 # Git
 echo ""
@@ -29,20 +29,20 @@ echo "... Gitignore moved"
 # Zsh
 echo ""
 echo "... Installing Zsh"
-# sh zsh/install.sh
+sh zsh/install.sh
 cp zsh/.zshrc ~/.zshrc
 echo "... Zsh installed"
 
 # Oh My Zsh
 echo ""
 echo "... Installing oh-my-zsh"
-# sh zsh/oh-my-zsh/install.sh
+sh zsh/oh-my-zsh/install.sh
 echo "... oh-my-zsh installed"
 
 # zsh-autosuggestions
 echo ""
 echo "... Installing zsh-autosuggestions plugin"
-# sh zsh/oh-my-zsh/zsh-autosuggestions.sh
+sh zsh/oh-my-zsh/zsh-autosuggestions.sh
 echo "... zsh-autosuggestions plugin installed"
 
 # OpenRazer
@@ -100,7 +100,7 @@ echo "... VSCode installed"
 # NPM login
 echo ""
 echo "... Please sign in to NPM"
-# sh node/npm/login.sh
+sh node/npm/login.sh
 
 # SSH keygen
 echo ""
