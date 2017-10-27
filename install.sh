@@ -69,6 +69,12 @@ echo "... Installing TypeScript and Elm"
 npm i -g typescript elm
 echo "... TypeScript and Elm installed"
 
+# Yarn
+echo ""
+echo "... Installing yarn"
+sh node/yarn/install.sh
+echo "... Yarn installed"
+
 # Python
 echo ""
 echo "... Instaling Python"
